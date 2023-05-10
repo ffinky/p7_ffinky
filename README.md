@@ -7,17 +7,17 @@ Projet P7
 ARBORESCENCE DES DOSSIERS
 
 "modelisation"
-- 3 note_books (EDA, Modeling, Data_Drift)
+- 3 note_books : EDA, Modeling, Data_Drift
 - tableaux HTML d'analyse du data drift
-- liste des packages python des notebooks (requirements.txt)
+- liste des packages python des notebooks : requirements.txt
 
 "api"
 - script de l'api : api.py (Python, FastAPI)
 - modèle LGBM retenu au format binaire (pikle)
 - fichiers de configuration pour le déploiement dans Heroku : Procfile, runtime.txt
 - packages python : requirements.txt, utilisé pour l'intégration continue et le déploiement 
-        - sous dossier ".github/workflows" : python-app.yml pour automatisation des tests unitaires 
-        - sous dossier "tests" : scripts des tests unitaires
+        - sous dossier "api/.github/workflows" : python-app.yml pour automatisation des tests unitaires 
+        - sous dossier "api/tests" : scripts des tests unitaires
 
 "dashboard"
 - script du dashboard : appli.py (Python, Streamlit)
