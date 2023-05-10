@@ -13,7 +13,7 @@ ARBORESCENCE DES DOSSIERS
 
 "api"
 - script de l'api : api.py (Python, FastAPI)
-- modèle LGBM retenu au format binaire (pikle)
+- modèle LGBM retenu au format binaire (pikle) : lgbm_model_final.p
 - fichiers de configuration pour le déploiement dans Heroku : Procfile, runtime.txt
 - packages python : requirements.txt, utilisé pour l'intégration continue et le déploiement 
         - sous dossier "api/.github/workflows" : python-app.yml pour automatisation des tests unitaires 
