@@ -11,7 +11,7 @@ ARBORESCENCE DES DOSSIERS
 - tableaux HTML d'analyse du data drift
 - liste des packages python des notebooks : requirements.txt
 
-"api"
+Les codes sources API se trouvent à la racine du projet
 - script de l'api : api.py (Python, FastAPI)
 - modèle LGBM retenu au format binaire (pikle) : lgbm_model_final.p
 - fichiers de configuration pour le déploiement dans Heroku : Procfile, runtime.txt
